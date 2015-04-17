@@ -1,0 +1,119 @@
+body {
+	width: 600px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#box {
+	background-image: url("images/grass_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 15px;
+	background-color: green;
+}
+
+header h1 {
+	padding: 5px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	background-color: rgba(200,200,200,0.3);
+	border-radius: 15px 15px 0 0;
+}
+
+footer {
+	clear: both;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#main {
+	width: 430px;
+	margin: 0 auto;
+}
+
+#end {
+	display: none;
+	position: absolute;
+	left: 230px;
+	top: 250px;
+	background-color: red;
+	color: yellow;
+	font-size: 24px;
+	padding: 15px;
+	border: 3px solid yellow;
+	border-radius: 15px;
+}
+
+#board {
+	width: 100%;
+	box-shadow: 0px 25px 30px rgba(0,0,0,0.9);
+}
+
+#top {
+
+}
+
+#left, #right {
+	position: absolute;
+	top: 60px;
+	width: 60px;
+	height: 60px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#left {
+	left: 25px;
+}
+
+#right {
+	left: 530px;
+}
+
+#left img, #right img {
+	display: block;
+	margin: 5px auto;
+}
+
+#controls {
+	margin: 5px;
+}
+
+#controls button {
+	margin: 2px;
+	padding: 2px;
+	font-size: 15px;
+}
+
+.hole {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.empty {
+	background-color: white;
+}
+
+.boardtheme_1 {
+	background-color: blue;
+	border-right: 5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	border-left: 5px solid #ccc;
+	border-radius: 0 0 40px 40px;
+}
+
+.toptheme_1 {
+	background-color: #eee;
+	border-top: 5px solid #ccc;
+	border-right: 5px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	border-left: 5px solid #ccc;
+	border-radius: 40px 40px 0px 0px;
+}
